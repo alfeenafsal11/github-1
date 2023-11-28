@@ -1,0 +1,103 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Sample Survey-Form</title>
+  <link rel="stylesheet" href="styles.css"> 
+  </head>
+  <body>
+    <h1 id="title">SURVEY-FORM</h1>
+    <p id="description">Please fill out the fields</p>
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Enter your name" required>
+      <label id="email-label">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email address" required>
+      <label id="number-label">Phone No:</label>
+      <input id="number" type="number" placeholder="Enter your Phone number" min="5" max="10">
+      <p>What role represents you best?</p>
+      <select d="dropdown" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Student">Student</option>
+        <option value="Full time employee">Full time employee</option>
+        <option value="Full time learner">Full time learner</option>
+        <option value="Other">Other</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+      </select>
+      <p>What programming language do you have an experience in?</p>
+      <select id="dropdown" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="C++">C++</option>
+        <option value="C">C</option>
+        <option value="SQL">SQL</option>
+        <option value="FORTRAN">FORTRAN</option>
+        <option value="Basic">Basic</option>
+      </select>
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+        <label>
+          <input name="prefer" value="Front-End Projects" type="checkbox" class="input-checkbox">
+          Front-End Projects
+        </label>
+        <label>
+          <input name="prefer" value="Back-End Projects" type="checkbox" class="input-checkbox">
+          Back-End Projects
+        </label>
+        <label>
+          <input name="prefer" value="Data-Science" type="checkbox" class="input-checkbox">
+          Data-Science
+        </label>
+        <label>
+          <input name="prefer" value="Game-Desgin" type="checkbox" class="input-checkbox">
+          Game-Design
+        </label>
+        <label>
+          <input name="prefer" value="Cyber-Security" type="checkbox" class="input-checkbox">
+          Cyber-Security
+        </label>
+        <label>
+          <input name="prefer" value="Software-Product Engineering" type="checkbox" class="input-checkbox">
+        Software-Product Engineering
+        </label>
+      <p>Would you like to recommend FreeCodeCamp to your friends?</p>
+      <label>
+        <input name="user-recommended" type="radio" value="Definitely" class="input-radio">
+        Definitely
+        </label>
+        <label>
+        <input name="user-recommended" type="radio" value="Maybe" class="input-radio">
+        Maybe
+        </label>
+        <label>
+        <input name="user-recommended" type="radio" value="Not sure" class="input-radio">
+        Not sure
+        </label>
+      <p>Any comments or suggestions:</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter you comments here..."></textarea>
+      <button id="submit" type="submit" class="submit-button">Submit</button>
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#title{
+background-color:grey;
+text-align: center;
+text-transform: bold;
+font-family:Monospace;
+}
+body{
+  background-color: #d3d3d3
+
+** end of undefined **
+
